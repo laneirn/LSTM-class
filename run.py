@@ -15,7 +15,7 @@ parser.add_argument('--model', type=str, required=True, help='choose a model: Te
 parser.add_argument('--embedding', default='pre_trained', type=str, help='random or pre_trained')
 parser.add_argument('--word', default=False, type=bool, help='True for word, False for char')
 args = parser.parse_args()
-
+# ok
 
 if __name__ == '__main__':
     dataset = 'THUCNews'  # 数据集
